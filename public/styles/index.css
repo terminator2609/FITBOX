@@ -1,4 +1,3 @@
-
 body {
     background-color: rgb(0, 0, 0);
 }
@@ -8,6 +7,7 @@ nav {
     background-color: rgb(0, 0, 0);
     width: 100%;
     position: fixed;
+    z-index: 1000;
 }
 
 nav>ul {
@@ -33,6 +33,16 @@ nav>ul li:nth-of-type(2) {
 nav>ul li:nth-of-type(2) img {
     width: 188px;
 }
+
+
+
+
+
+/* ----------------------------------------------------------header---------------------------------------------------------- */
+
+
+
+
 
 
 header {
@@ -74,3 +84,104 @@ header article:nth-of-type(1)>div:nth-of-type(1) img:nth-of-type(1) {
 header article:nth-of-type(1)>div:nth-of-type(1) img:nth-of-type(2) {
     width: 100%;
 }
+
+
+header article:nth-of-type(2) {
+    color: #ffffff;
+    margin-top: 45px;
+    width: 100%;
+}
+
+header article:nth-of-type(2) ul {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+header article:nth-of-type(2) ul li:nth-of-type(1),
+header article:nth-of-type(2) ul li:nth-of-type(2) {
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: center;
+}
+
+header article:nth-of-type(2) ul li:nth-of-type(1) p:nth-of-type(1),
+header article:nth-of-type(2) ul li:nth-of-type(2) p:nth-of-type(1) {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+header article:nth-of-type(2) ul li:nth-of-type(1) p:nth-of-type(2),
+header article:nth-of-type(2) ul li:nth-of-type(2) p:nth-of-type(2) {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 20px;
+    padding-bottom: 4px;
+}
+
+
+header article:nth-of-type(2) ul li:nth-of-type(3),
+header article:nth-of-type(2) ul li:nth-of-type(4) {
+    width: 50%;
+}
+
+header article:nth-of-type(2) ul li:nth-of-type(3) p:nth-of-type(1),
+header article:nth-of-type(2) ul li:nth-of-type(4) p:nth-of-type(1) {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+}
+
+header article:nth-of-type(2) ul li:nth-of-type(5) {
+    border-bottom: 2px solid #00ff00;
+    padding-bottom: 10px;
+}
+
+header article:nth-of-type(2) ul li:nth-of-type(5) a {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+header article:nth-of-type(2)>p {
+    text-align: center;
+    width: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Montserrat';
+    font-size: 15px;
+    margin-top: 80px;
+}
+
+
+/* ----------------------------------------------------------------main---------------------------------------------------------------- */
+
+
+
+main {
+    margin-top: 80px;
+}
+
+
+main article:nth-of-type(1) {
+    width: 100%;
+}
+
+main article:nth-of-type(1) ul {
+    width: 100%;
+    background-color: #00ff00;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main article:nth-of-type(1) ul li {
+    font-family: "sans-serif";
+}
+
+
