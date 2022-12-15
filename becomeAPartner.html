@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./public/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./public/styles/reset.css">
+    <link rel="stylesheet" href="./public/styles/becomeAPartner.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/20abf9ecf5.js" crossorigin="anonymous"></script>
+
+    <title>FITBOX</title>
+</head>
+
+<body>
+
+    <header>
+
+        <svg class="close-menu-button" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+            clip-rule="evenodd">
+            <path
+                d="M12 11.293l10.293-10.293.707.707-10.293 10.293 10.293 10.293-.707.707-10.293-10.293-10.293 10.293-.707-.707 10.293-10.293-10.293-10.293.707-.707 10.293 10.293z" />
+        </svg>
+
+        <div>
+            <img src="./public/images/selected-page.png" alt="select">
+            <h1>Become a partner</h1>
+        </div>
+
+    </header>
+
+
+    <main>
+        <form action="">
+            <input type="text" placeholder="Имейл" name="email" id="email">
+            <input type="text" placeholder="Две имена" name="name" id="name">
+            <input type="text" placeholder="Какъв е вашият продукт?" name="product" id="product">
+
+            <div>
+                <div class="checked-round">
+                    <p>-</p>
+                </div>
+                <input type="radio" name="private" id="private" class="select-input">
+                <label for="private">Частно лице</label>
+            </div>
+
+            <div>
+                <div class="checked-round">
+                    <p>-</p>
+                </div>
+                <input type="radio" name="business" id="business" class="select-input">
+                <label for="business">Физическо лице</label>
+            </div>
+        </form>
+
+        <div>
+            <a href="./index.html">Send</a>
+        </div>
+        
+    </main>
+
+</body>
+
+<script src="./public/scripts/becomePartner.js"></script>
+
+</html>
