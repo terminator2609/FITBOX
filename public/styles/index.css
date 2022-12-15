@@ -32,6 +32,7 @@ nav>ul li:nth-of-type(2) {
 
 nav>ul li:nth-of-type(2) img {
     width: 188px;
+    padding-left: 15px;
 }
 
 
@@ -182,14 +183,16 @@ main article:nth-of-type(1) ul {
 }
 
 main article:nth-of-type(1) ul li {
-    font-family: "sans-serif";
+    font-family: 'MONTSERRAT';
     padding-top: 10px;
     padding-bottom: 10px;
     animation-name: test;
     animation-iteration-count: infinite;
     animation-duration: 4s;
     animation-delay: -2s;
+    font-size: 14px;
 }
+
 
 @keyframes test {
     0% {
@@ -441,5 +444,3 @@ main article:nth-of-type(5) div:nth-of-type(3) a {
     border-bottom: 2px solid #00ff00;
     padding-bottom: 10px;
 }
-
-
