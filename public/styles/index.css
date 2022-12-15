@@ -290,7 +290,34 @@ main article:nth-of-type(3) div:nth-of-type(1) {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    font-family: Montserrat;
+    color: rgb(0, 0, 0);
 }
+
+main article:nth-of-type(3) div:nth-of-type(1) h1 {
+    position: absolute;
+    top: 5%;
+    width: 45%;
+    left: 20%;
+    font-size: 21px;
+    line-height: 1.2;
+}
+
+main article:nth-of-type(3) div:nth-of-type(1) h2 {
+    position: absolute;
+    width: 40%;
+    left: 20%;
+    font-size: 15px;
+}
+
+main article:nth-of-type(3) div:nth-of-type(1) p {
+    position: absolute;
+    bottom: 20%;
+    font-size: 35px;
+    right: 20%;
+}
+
 
 main article:nth-of-type(3) div:nth-of-type(1) video {
     width: 70%;
@@ -357,10 +384,20 @@ main article:nth-of-type(4) div:nth-of-type(1) img {
 
 main article:nth-of-type(4) div p {
     position: absolute;
-    right: 20%;
     text-transform: uppercase;
     font-size: 14px;
-    bottom: 20%;
     font-family: Montserrat;
     color: #ffffff;
 }
+
+main article:nth-of-type(4) div:nth-of-type(1) p {
+    right: 20%;
+    bottom: 10%;
+}
+
+main article:nth-of-type(4) div:nth-of-type(2) p {
+    left: 5%;
+    bottom: 3%;
+}
+
+
