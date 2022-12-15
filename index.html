@@ -105,7 +105,7 @@
 
         <article>
             <div>
-                <video controls autoplay loop>
+                <video controls autoplay muted playsinline loop>
                     <source src="./public/images/home-video.mp4" type="video/mp4">
                 </video>
 
@@ -155,5 +155,9 @@
     </main>
 
 </body>
+
+<script>
+    document.getElementsByTagName("video")[0].play()
+</script>
 
 </html>
