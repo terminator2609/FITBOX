@@ -44,7 +44,6 @@ nav>ul li:nth-of-type(1) div.nav-menu {
     top: 0%;
     left: 0%;
     font-family: 'Montserrat';
-    color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -70,12 +69,16 @@ nav>ul li:nth-of-type(1) div.nav-menu ul li {
     position: relative;
 }
 
+nav>ul li:nth-of-type(1) div.nav-menu ul li a {
+    color: #ffffff;
+}
+
 .selected-page {
     width: 70%;
     position: absolute;
     left: 20%;
     top: -165%;
-    z-index: 100;
+    z-index: -1;
     bottom: 0%;
 }
 
