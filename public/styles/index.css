@@ -74,10 +74,10 @@ nav>ul li:nth-of-type(1) div.nav-menu ul li a {
 }
 
 .selected-page {
-    width: 70%;
+    width: 80%;
     position: absolute;
-    left: 20%;
-    top: -165%;
+    left: 10%;
+    top: -200%;
     z-index: -1;
     bottom: 0%;
 }
