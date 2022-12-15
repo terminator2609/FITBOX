@@ -48,6 +48,7 @@ nav>ul li:nth-of-type(1) div.nav-menu {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    display: none;
 }
 
 nav>ul li:nth-of-type(1) div.nav-menu svg {
@@ -424,22 +425,22 @@ main article:nth-of-type(4) {
     width: 100%;
     display: flex;
     overflow: hidden;
-    gap: 10px;
+    gap: 15px;
     margin-top: 80px;
 }
 
 main article:nth-of-type(4) div {
     width: 100%;
     position: relative;
+    overflow: hidden;
 }
 
 main article:nth-of-type(4) div img {
-    width: 100%;
-    display: inline;
+    width: 270px;
 }
 
 main article:nth-of-type(4) div:nth-of-type(1) img {
-    width: 85%;
+    width: 230px;
 }
 
 main article:nth-of-type(4) div p {
@@ -451,8 +452,8 @@ main article:nth-of-type(4) div p {
 }
 
 main article:nth-of-type(4) div:nth-of-type(1) p {
-    right: 20%;
-    bottom: 10%;
+    right: 5%;
+    bottom: 12%;
 }
 
 main article:nth-of-type(4) div:nth-of-type(2) p {
@@ -484,15 +485,22 @@ main article:nth-of-type(5) div:nth-of-type(1) h1 {
     font-size: 20px;
 }
 
-main article:nth-of-type(5) div:nth-of-type(2) {
+/* main article:nth-of-type(5) div:nth-of-type(2) {
     width: 100%;
-}
+} */
 
 
-main article:nth-of-type(5) div:nth-of-type(2) img {
+/* main article:nth-of-type(5) div:nth-of-type(2) img {
     width: 50%;
     margin-left: 50%;
     transform: translateX(-50%);
+} */
+
+
+main article:nth-of-type(5) div:nth-of-type(2) p {
+    color: #ffffff;
+    opacity: 0.5;
+    font-size: 12px;
 }
 
 main article:nth-of-type(5) div:nth-of-type(3) a {
