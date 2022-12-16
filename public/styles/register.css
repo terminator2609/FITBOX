@@ -100,7 +100,7 @@ main form div.gender div.checked-round>p {
 }
 
 main form div.general-accept {
-    width: 70%;
+    width: 65%;
     flex-direction: column;
     display: flex;
     gap: 15px;
