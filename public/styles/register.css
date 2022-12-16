@@ -128,8 +128,8 @@ main form div.general-accept div.checked-round {
     width: 17px;
     border-radius: 28px;
     position: absolute;
-    top: 10%;
-    right: 0%;
+    top: 25%;
+    left: 1%;
 }
 
 main form div.general-accept div.checked-round>p {
