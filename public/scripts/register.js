@@ -25,15 +25,3 @@ for(let i = 0; i < checkedRound.length; i++) {
     })
 }
 
-let checkedRound2 =  document.getElementsByClassName("checked-round-2")
-let selectInput2 = document.getElementsByClassName("select-input-2")
-
-for(let i = 0; i < checkedRound.length; i++) {
-
-    checkedRound2[i].addEventListener("click", (e) => {
-
-
-        checkedRound2[i].style.backgroundColor = "#00ff00"
-        selectInput2[i].checked = true
-    })
-}
