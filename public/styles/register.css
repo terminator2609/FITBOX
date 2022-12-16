@@ -88,11 +88,11 @@ main form div.gender label {
 
 main form div.gender div.checked-round {
     background-color: #7c7c7c;
-    width: 16px;
+    width: 17px;
     border-radius: 28px;
     position: absolute;
-    top: 10%;
-    right: 0%;
+    top: 12%;
+    right: 1%;
 }
 
 main form div.gender div.checked-round>p {
