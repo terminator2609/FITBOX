@@ -104,6 +104,7 @@ main form div.general-accept {
     flex-direction: column;
     display: flex;
     gap: 15px;
+    position: relative;
 }
 
 main form div.general-accept>div {
@@ -112,6 +113,7 @@ main form div.general-accept>div {
     align-items: center;
     justify-content: center;
     gap: 5px;
+    position: relative;
 }
 
 main form div.general-accept>div label {
@@ -119,4 +121,17 @@ main form div.general-accept>div label {
     font-family: Montserrat;
     padding-left: 15px;
     font-size: 12px;
+}
+
+main form div.general-accept div.checked-round {
+    background-color: #7c7c7c;
+    width: 17px;
+    border-radius: 28px;
+    position: absolute;
+    top: 10%;
+    right: 0%;
+}
+
+main form div.general-accept div.checked-round>p {
+    opacity: 0;
 }
