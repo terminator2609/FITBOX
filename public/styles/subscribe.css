@@ -205,7 +205,7 @@ main article:nth-of-type(1) form div div.checked-round {
     border-radius: 28px;
     position: absolute;
     top: 5%;
-    left: 1%;
+    left: 0.5%;
 }
 
 main article:nth-of-type(1) form div div.checked-round>p {
