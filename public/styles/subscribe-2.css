@@ -248,12 +248,12 @@ main article:nth-of-type(2) div:nth-of-type(2) form>div label i {
 
 main article:nth-of-type(2) div:nth-of-type(2) form>div div.checked-round {
     background-color: #7c7c7c;
-    width: 14px;
+    width: 17px;
     border-radius: 44px;
     position: absolute;
     top: 19%;
     left: 1%;
-    height: 14px;
+    height: 16px;
 }
 
 main article:nth-of-type(2) div:nth-of-type(2) form>div div.checked-round>p {
