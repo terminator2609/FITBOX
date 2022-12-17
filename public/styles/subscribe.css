@@ -173,7 +173,7 @@ main article:nth-of-type(1) form>div {
     position: relative;
     display: flex;
     align-items: baseline;
-    gap: 5px;
+    gap: 10px;
 }
 
 main article:nth-of-type(1) form div label {
