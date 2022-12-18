@@ -511,3 +511,82 @@ main article:nth-of-type(5) div:nth-of-type(3) a {
     border-bottom: 2px solid #00ff00;
     padding-bottom: 10px;
 }
+
+
+
+
+/* -----------------------------------------------------------footer---------------------------------------------------------- */
+
+footer {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-family: Montserrat;
+}
+
+
+footer img {
+    width: 50%;
+    align-self: center;
+}
+
+footer article {
+    margin-left: 30px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+footer article h6 {
+    color: #00ff00;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+footer article ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+footer article ul li,
+footer article ul li a {
+    color: #ffffff;
+}
+
+
+footer article:nth-of-type(3) {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+footer article:nth-of-type(3) div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+footer article:nth-of-type(3) div a {
+    color: #ffffff;
+}
+
+footer article:nth-of-type(3) div a i {
+    font-size: 18px;
+} 
+
+footer article:nth-of-type(3) p {
+    color: #ffffff;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
