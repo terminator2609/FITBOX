@@ -61,6 +61,7 @@ nav>ul li:nth-of-type(1) div.nav-menu ul {
     font-size: 25px;
     text-align: center;
     margin-top: 40%;
+    width: 100%;
 }
 
 nav>ul li:nth-of-type(1) div.nav-menu ul li {
@@ -72,12 +73,13 @@ nav>ul li:nth-of-type(1) div.nav-menu ul li a {
 }
 
 .selected-page {
-    width: 80%;
+    width: 137px;
     position: absolute;
-    left: 10%;
-    top: -200%;
+    left: 50%;
+    top: -59px;
     z-index: -1;
     bottom: 0%;
+    transform: translateX(-50%);
 }
 
 nav>ul li:nth-of-type(1) div.nav-menu ul li:nth-of-type(1n + 2) .selected-page {
@@ -621,9 +623,13 @@ footer article:nth-of-type(4) p {
 
 
     nav>ul li:nth-of-type(1) div.nav-menu ul {
-        margin-top: 10%;
+        margin-top: 5%;
         height: 65vh;
         overflow-y: scroll;
+    }
+
+    nav>ul li:nth-of-type(1) div.nav-menu ul li:last-of-type {
+        margin-top: 5%;
     }
 
 
