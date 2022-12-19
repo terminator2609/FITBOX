@@ -241,4 +241,8 @@ main>div:nth-of-type(2) a:nth-of-type(2) {
         font-size: 14px;
     }
 
+    main form>div div.checked-round {
+        left: 0.5%;
+    }
+
 }
