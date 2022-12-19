@@ -43,9 +43,7 @@ nav>ul li:nth-of-type(1) div.nav-menu {
     top: 0%;
     left: 0%;
     font-family: 'Montserrat';
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
     display: none;
 }
 
@@ -62,6 +60,7 @@ nav>ul li:nth-of-type(1) div.nav-menu ul {
     gap: 20px;
     font-size: 25px;
     text-align: center;
+    margin-top: 40%;
 }
 
 nav>ul li:nth-of-type(1) div.nav-menu ul li {
@@ -85,7 +84,11 @@ nav>ul li:nth-of-type(1) div.nav-menu ul li:nth-of-type(1n + 2) .selected-page {
     display: none;
 }
 
-nav>ul li:nth-of-type(1) div.nav-menu>a {
+nav>ul li:nth-of-type(1) div.nav-menu ul li:last-of-type {
+    margin-top: 40%;
+}
+
+nav>ul li:nth-of-type(1) div.nav-menu ul li:last-of-type a {
     align-self: center;
     padding-bottom: 10px;
     color: #ffffff;
@@ -613,7 +616,13 @@ footer article:nth-of-type(4) p {
     }
 
     nav>ul li:nth-of-type(1) div.nav-menu {
-        height: 150vh;
+        height: 200vh;
+    }
+
+
+    nav>ul li:nth-of-type(1) div.nav-menu ul {
+        margin-top: 10%;
+        height: 65vh;
         overflow-y: scroll;
     }
 
