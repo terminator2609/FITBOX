@@ -60,7 +60,7 @@ nav>ul li:nth-of-type(1) div.nav-menu ul {
     gap: 20px;
     font-size: 25px;
     text-align: center;
-    margin-top: 20%;
+    margin-top: 30%;
     width: 100%;
 }
 
@@ -87,7 +87,7 @@ nav>ul li:nth-of-type(1) div.nav-menu ul li:nth-of-type(1n + 2) .selected-page {
 }
 
 nav>ul li:nth-of-type(1) div.nav-menu ul li:last-of-type {
-    margin-top: 40%;
+    margin-top: 20%;
 }
 
 nav>ul li:nth-of-type(1) div.nav-menu ul li:last-of-type a {
