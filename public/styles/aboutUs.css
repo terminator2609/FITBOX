@@ -3,6 +3,11 @@ body {
 }
 
 
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+
 nav {
     background-color: rgb(0, 0, 0);
     width: 100%;
@@ -32,7 +37,6 @@ nav>ul>li:nth-of-type(2) {
 
 nav>ul>li:nth-of-type(2) img {
     width: 188px;
-    padding-left: 15px;
 }
 
 nav>ul li:nth-of-type(1) div.nav-menu {
@@ -188,10 +192,13 @@ footer {
     font-family: Montserrat;
 }
 
+footer article:nth-of-type(1) {
+    width: 80%;
+    align-items: center;
+}
 
 footer img {
-    width: 50%;
-    align-self: center;
+    width: 133px;
 }
 
 footer article {
@@ -223,7 +230,7 @@ footer article ul li a {
 }
 
 
-footer article:nth-of-type(3) {
+footer article:nth-of-type(4) {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -232,7 +239,7 @@ footer article:nth-of-type(3) {
     margin-top: 30px;
 }
 
-footer article:nth-of-type(3) div {
+footer article:nth-of-type(4) div {
     display: flex;
     gap: 20px;
     align-items: center;
@@ -240,15 +247,15 @@ footer article:nth-of-type(3) div {
 }
 
 
-footer article:nth-of-type(3) div a {
+footer article:nth-of-type(4) div a {
     color: #ffffff;
 }
 
-footer article:nth-of-type(3) div a i {
+footer article:nth-of-type(4) div a i {
     font-size: 18px;
-} 
+}
 
-footer article:nth-of-type(3) p {
+footer article:nth-of-type(4) p {
     color: #ffffff;
     font-size: 10px;
     margin-bottom: 20px;
