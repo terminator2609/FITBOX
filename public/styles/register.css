@@ -131,6 +131,10 @@ main form div.general-accept div.checked-round-2 {
     left: 0.5%;
 }
 
+main form div.general-accept div:nth-of-type(1) div.checked-round-2 {
+    top: 25%;
+}
+
 
 main form div.general-accept div.checked-round-2>p {
     opacity: 0;
