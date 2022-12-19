@@ -232,6 +232,10 @@ main>div:nth-of-type(2) a:nth-of-type(2) {
         font-size: 18px;
     }
 
+    main form input::placeholder {
+        font-size: 18px;
+    }
+
     main form a {
         font-size: 13px;
     }
