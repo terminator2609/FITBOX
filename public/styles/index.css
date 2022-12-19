@@ -32,7 +32,6 @@ nav>ul>li:nth-of-type(2) {
 
 nav>ul>li:nth-of-type(2) img {
     width: 188px;
-    padding-left: 15px;
 }
 
 nav>ul li:nth-of-type(1) div.nav-menu {
@@ -165,7 +164,7 @@ header article:nth-of-type(2) ul li:nth-of-type(1),
 header article:nth-of-type(2) ul li:nth-of-type(2) {
     display: flex;
     gap: 10px;
-    align-items: flex-end;
+    align-items: baseline;
     width: 100%;
     justify-content: center;
 }
@@ -174,14 +173,14 @@ header article:nth-of-type(2) ul li:nth-of-type(1) p:nth-of-type(1),
 header article:nth-of-type(2) ul li:nth-of-type(2) p:nth-of-type(1) {
     font-family: Montserrat;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 13vi;
 }
 
 header article:nth-of-type(2) ul li:nth-of-type(1) p:nth-of-type(2),
 header article:nth-of-type(2) ul li:nth-of-type(2) p:nth-of-type(2) {
     font-family: Montserrat;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 5vi;
     padding-bottom: 4px;
 }
 
@@ -253,6 +252,10 @@ main article:nth-of-type(1) ul li {
     font-size: 13px;
 }
 
+.secondary-li {
+    display: none;
+}
+
 
 @keyframes test {
     0% {
@@ -299,7 +302,7 @@ main article:nth-of-type(2) {
 }
 
 main article:nth-of-type(2)>div:nth-of-type(1) p {
-    font-size: 18px;
+    font-size: 5vi;
     padding-bottom: 5px;
 }
 
@@ -312,11 +315,11 @@ main article:nth-of-type(2)>div:nth-of-type(1) ul {
 
 main article:nth-of-type(2)>div:nth-of-type(1) ul li:nth-of-type(1) {
     font-weight: 600;
-    font-size: 55px;
+    font-size: 20vi;
 }
 
 main article:nth-of-type(2)>div:nth-of-type(1) ul li:nth-of-type(2) {
-    font-size: 12px;
+    font-size: 4vi;
     margin-bottom: 4px;
 }
 
@@ -383,8 +386,12 @@ main article:nth-of-type(3) div:nth-of-type(1) p {
 }
 
 
-main article:nth-of-type(3) div:nth-of-type(1) video {
+main article:nth-of-type(3) div:nth-of-type(1) video:nth-of-type(1) {
     width: 70%;
+}
+
+.horizontally-home-video {
+    display: none;
 }
 
 
@@ -525,10 +532,13 @@ footer {
     font-family: Montserrat;
 }
 
+footer article:nth-of-type(1) {
+    width: 80%;
+    align-items: center;
+}
 
 footer img {
-    width: 50%;
-    align-self: center;
+    width: 133px;
 }
 
 footer article {
@@ -560,7 +570,7 @@ footer article ul li a {
 }
 
 
-footer article:nth-of-type(3) {
+footer article:nth-of-type(4) {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -569,7 +579,7 @@ footer article:nth-of-type(3) {
     margin-top: 30px;
 }
 
-footer article:nth-of-type(3) div {
+footer article:nth-of-type(4) div {
     display: flex;
     gap: 20px;
     align-items: center;
@@ -577,16 +587,108 @@ footer article:nth-of-type(3) div {
 }
 
 
-footer article:nth-of-type(3) div a {
+footer article:nth-of-type(4) div a {
     color: #ffffff;
 }
 
-footer article:nth-of-type(3) div a i {
+footer article:nth-of-type(4) div a i {
     font-size: 18px;
-} 
+}
 
-footer article:nth-of-type(3) p {
+footer article:nth-of-type(4) p {
     color: #ffffff;
     font-size: 10px;
     margin-bottom: 20px;
+}
+
+
+
+
+
+
+@media screen and (min-width: 560px) and (max-height: 500px) {
+
+    nav>ul {
+        width: 90%;
+    }
+
+
+    header {
+        padding-top: 35%;
+    }
+
+
+    header article:nth-of-type(1) h1 {
+        font-size: 28px;
+    }
+
+    .secondary-li {
+        display: inline;
+        margin-right: 10px;
+    }
+
+    main article:nth-of-type(1) ul li:nth-of-type(2) {
+        padding-right: 0px;
+    }
+
+    main article:nth-of-type(3) div:nth-of-type(1) video:nth-of-type(1) {
+        display: none;
+    }
+
+    .horizontally-home-video {
+        display: block;
+        width: 100%;
+    }
+
+
+    main article:nth-of-type(3) div:nth-of-type(1) h1 {
+        width: 20%;
+        left: 35%;
+        font-size: 18px;
+    }
+
+
+    main article:nth-of-type(3) div:nth-of-type(1) h2 {
+        width: 15%;
+        left: 36%;
+        font-size: 15px;
+    }
+
+
+    main article:nth-of-type(3) div:nth-of-type(1) p {
+        bottom: 10%;
+        font-size: 30px;
+        right: 35%;
+    }
+
+    main article:nth-of-type(3) div:nth-of-type(2) h1 {
+        font-size: 25px;
+    }
+
+    main article:nth-of-type(3) div:nth-of-type(2) p {
+        font-size: 14px;
+    }
+
+
+    main article:nth-of-type(5) div:nth-of-type(1) h1 {
+        font-size: 24px;
+    }
+
+    main article:nth-of-type(4) div:nth-of-type(1) img {
+        width: 50vw;
+    }
+
+    main article:nth-of-type(4) div img {
+        width: 60vw;
+    }
+
+    main article:nth-of-type(4) div:nth-of-type(1) p {
+        bottom: 14%;
+    }
+
+    footer article:nth-of-type(1) {
+        width: 90%;
+        align-items: center;
+    }
+
 }
