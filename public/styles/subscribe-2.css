@@ -449,7 +449,7 @@ footer article:nth-of-type(4) p {
 
 
     main article:nth-of-type(2) div:nth-of-type(2) form>div div.checked-round {
-        top: 5%;
+        top: 10%;
     }
 
     main article:nth-of-type(2) div:nth-of-type(2) form>div label {
