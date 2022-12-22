@@ -2,19 +2,20 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
-
 nav {
     background-color: rgb(0, 0, 0);
     width: 100%;
     position: fixed;
     z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav>ul {
     display: flex;
     align-items: center;
     width: 80%;
-    margin-left: 30px;
     padding-top: 10px;
     border-bottom: 1px solid #ffffff;
 }
@@ -98,6 +99,7 @@ nav>ul li:nth-of-type(1) div.nav-menu ul li:last-of-type a {
     border-bottom: 2px solid #00ff00;
     margin-bottom: 120px;
 }
+
 
 
 
@@ -247,7 +249,7 @@ main article:nth-of-type(2) p:nth-of-type(1) {
     padding-left: 10px;
 }
 
-main article:nth-of-type(2) p:nth-of-type(2) {
+main article:nth-of-type(2) p:last-of-type {
     padding-right: 10px;
 }
 
@@ -279,15 +281,8 @@ footer {
     flex-direction: column;
     gap: 50px;
     font-family: Montserrat;
-}
-
-footer article:nth-of-type(1) {
-    width: 80%;
-    align-items: center;
-}
-
-footer img {
-    width: 133px;
+    width: 100%;
+    overflow: hidden;
 }
 
 footer article {
@@ -319,37 +314,36 @@ footer article ul li a {
 }
 
 
-footer article:nth-of-type(4) {
+footer article:nth-of-type(3) {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    justify-content: center;
-    align-items: center;
     margin-top: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
-footer article:nth-of-type(4) div {
+footer article:nth-of-type(3) div {
     display: flex;
     gap: 20px;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
 }
 
 
-footer article:nth-of-type(4) div a {
+footer article:nth-of-type(3) div a {
     color: #ffffff;
 }
 
-footer article:nth-of-type(4) div a i {
+footer article:nth-of-type(3) div a i {
     font-size: 18px;
 }
 
-footer article:nth-of-type(4) p {
+footer article:nth-of-type(3) p {
     color: #ffffff;
     font-size: 10px;
     margin-bottom: 20px;
 }
-
 
 
 
@@ -428,5 +422,116 @@ footer article:nth-of-type(4) p {
         width: 90%;
         align-items: center;
     }
+
+}
+
+
+@media screen and (min-width: 580px) and (min-height: 950px) {
+
+    nav>ul {
+        width: 85%;
+    }
+
+    nav>ul>li:nth-of-type(1) i {
+        font-size: 45px;
+    }
+
+    nav>ul>li:nth-of-type(2) img {
+        width: 200px;
+    }
+
+    nav>ul li:nth-of-type(1) div.nav-menu ul {
+        font-size: 30px;
+    }
+
+    nav>ul li:nth-of-type(1) div.nav-menu ul li:last-of-type {
+        margin-top: 10%;
+    }
+
+    nav>ul li:nth-of-type(1) div.nav-menu ul li:last-of-type a {
+        font-size: 20px;
+    }
+
+    nav>ul li:nth-of-type(1) div.nav-menu ul {
+        margin-top: 15%;
+    }
+
+    header {
+        font-size: 55px;
+    }
+
+    header img {
+        width: 380px;
+        bottom: -145px;
+        left: 50%;
+        transform: translateX(-45%);
+    }
+
+    main article:nth-of-type(1) form>input {
+        width: 70%;
+        font-size: 20px;
+    }
+
+    main article:nth-of-type(1) form>input::placeholder {
+        font-size: 20px;
+    }
+
+    main article:nth-of-type(1) form>div {
+        width: 72%;
+    }
+
+    main article:nth-of-type(1) form div div.checked-round {
+        width: 21px;
+        height: 20px;
+    }
+
+    main article:nth-of-type(1) form div label {
+        font-size: 18px;
+    }
+
+    main article:nth-of-type(1) form div p {
+        font-size: 18px;
+    }
+
+    main article:nth-of-type(1)>p {
+        font-size: 13px;
+        width: 70%;
+        margin-left: 14%;
+    }
+
+    main article:nth-of-type(2) {
+        font-size: 15px;
+    }
+
+    .secondary-li {
+        display: block;
+    }
+
+    main article:nth-of-type(3) a {
+        font-size: 24px;
+    }
+
+    footer article h6 {
+        color: #00ff00;
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    footer article ul {
+        font-size: 18px;
+    }
+
+    footer article:nth-of-type(3) div a i {
+        font-size: 20px;
+    }
+
+    footer article:nth-of-type(3) p {
+        font-size: 12px;
+    }
+
+
+    
+    
+
 
 }
