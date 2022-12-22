@@ -145,3 +145,53 @@ main a {
 
 
 }
+
+
+@media screen and (min-width: 580px) and (min-height: 950px) {
+
+    header div {
+        font-size: 30px;
+        margin-top: 110px;
+    }
+
+    header div img {
+        width: 240px;
+        bottom: -96px;
+    }
+
+
+    main form>input {
+        width: 70%;
+        font-size: 20px;
+    }
+
+
+    main form>input::placeholder {
+        font-size: 20px;
+    }
+
+    main form>div {
+        width: 72%;
+    }
+
+    main form div div.checked-round {
+        width: 21px;
+        height: 20px;
+    }
+
+    main form div label {
+        font-size: 20px;
+        padding-left: 15px;
+    }
+
+    main>div:nth-of-type(1) {
+        margin-top: 50px;
+    }
+
+    main a {
+        font-size: 26px;
+    }
+    
+    
+
+}
