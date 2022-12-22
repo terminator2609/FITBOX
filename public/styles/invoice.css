@@ -78,3 +78,24 @@ main article a {
 
 }
 
+
+@media screen and (min-width: 580px) and (min-height: 950px) {
+    
+    main article {
+        width: 88%;
+    }
+
+    main article p {
+        font-size: 18px;
+    }
+
+    main article h1 {
+        font-size: 24px;
+    }
+
+    main article a {
+        font-size: 18px;
+    }
+
+}
+

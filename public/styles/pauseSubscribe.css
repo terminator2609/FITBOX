@@ -130,3 +130,47 @@ main article:nth-of-type(1) a:nth-of-type(2) {
     }
 
 }
+
+
+@media screen and (min-width: 580px) and (min-height: 950px) {
+
+    header div {
+        font-size: 45px;
+        margin-top: 125px;
+    }
+
+    header div img {
+        width: 325px;
+        bottom: -125px;
+    }
+
+    main {
+        margin-top: 60px;
+    }
+
+    main h1 {
+        font-size: 24px;
+    }
+
+    main form div label {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    main form div div.checked-round {
+        width: 21px;
+        height: 20px;
+    }
+
+    main article:nth-of-type(1) a:nth-of-type(1) {
+        font-size: 24px;
+        padding-bottom: 15px;
+    }
+
+    main article:nth-of-type(1) a:nth-of-type(2) {
+        font-size: 16px;
+    }
+    
+    
+
+}

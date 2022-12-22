@@ -78,3 +78,31 @@ main a {
     
 
 }
+
+@media screen and (min-width: 580px) and (min-height: 950px) {
+
+    header div {
+        font-size: 28px;
+        margin-top: 110px;
+    }
+
+    header div img {
+        width: 270px;
+        bottom: -110px;
+    }
+
+    main p {
+        width: 50%;
+        font-size: 18px;
+        margin-top: 90px;
+    }
+
+    main a {
+        font-size: 24px;
+        padding-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+    
+
+}
