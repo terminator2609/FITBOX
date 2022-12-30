@@ -50,7 +50,8 @@ main form {
     gap: 25px;
 }
 
-main form div:nth-of-type(1) input, main form>input {
+main form div:nth-of-type(1) input,
+main form>input {
     background: none;
     border: none;
     border-bottom: 1px solid #ffffff;
@@ -227,7 +228,8 @@ main>div:nth-of-type(2) a:nth-of-type(2) {
     }
 
 
-    main form div:nth-of-type(1) input, main form>input {
+    main form div:nth-of-type(1) input,
+    main form>input {
         width: 70%;
         font-size: 18px;
     }
@@ -263,7 +265,8 @@ main>div:nth-of-type(2) a:nth-of-type(2) {
         bottom: -100px;
     }
 
-    main form div:nth-of-type(1) input, main form>input {
+    main form div:nth-of-type(1) input,
+    main form>input {
         width: 70%;
         font-size: 20px;
     }
@@ -321,6 +324,93 @@ main>div:nth-of-type(2) a:nth-of-type(2) {
         left: 0%;
         height: 20px;
     }
-    
+
+
+}
+
+
+@media screen and (min-width: 980px) {
+
+    header div {
+        font-size: 40px;
+    }
+
+
+    header div img {
+        width: 350px;
+        bottom: -140px;
+    }
+
+
+    main {
+        gap: 70px;
+    }
+
+
+    main form div:nth-of-type(1) input,
+    main form>input {
+        width: 80%;
+        font-size: 22px;
+    }
+
+    main form input::placeholder {
+        font-size: 22px;
+    }
+
+    main form a {
+        font-size: 16px;
+        margin-right: 10%;
+    }
+
+    main form>div:nth-of-type(2) {
+        width: 80%;
+        font-size: 20px;
+        gap: 15px;
+    }
+
+    main form>div:nth-of-type(2) label {
+        margin-top: 2px;
+    }
+
+    main>div:nth-of-type(1) {
+        font-size: 25px;
+        gap: 70px;
+    }
+
+    main>div:nth-of-type(1) div a i {
+        font-size: 35px;
+    }
+
+
+    main>div:nth-of-type(1) a p {
+        font-size: 20px;
+    }
+
+    main>div:nth-of-type(1) div img {
+        width: 485px;
+        top: -240px;
+    }
+
+    main>div:nth-of-type(1) div:nth-of-type(3) a i {
+        font-size: 34px;
+    }
+
+
+    main>div:nth-of-type(2) a:nth-of-type(1) {
+        font-size: 30px;
+    }
+
+    main>div:nth-of-type(2) a:nth-of-type(2) {
+        font-size: 17px;
+    }
+
+    main form>div div.checked-round {
+        width: 24px;
+        left: 0%;
+        height: 23px;
+        top: 0%;
+    }
+
+
 
 }
