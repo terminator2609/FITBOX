@@ -1055,6 +1055,9 @@ footer article:nth-of-type(3) p {
         font-size: 25px;
     }
 
+    main article:nth-of-type(3) {
+        margin-top: 160px;
+    }
 
     main article:nth-of-type(3) div {
         margin-bottom: 10%;
@@ -1066,7 +1069,7 @@ footer article:nth-of-type(3) p {
 
     main article:nth-of-type(3) div img {
         width: 70%;
-        bottom: -340%;
+        bottom: -345%;
         left: 40%;
         transform: translateX(-40%);
     }
