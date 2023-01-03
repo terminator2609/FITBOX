@@ -352,6 +352,44 @@ main article:nth-of-type(2)>div:nth-of-type(3) a {
 
 
 main article:nth-of-type(3) {
+    text-align: center;
+    margin-top: 120px;
+    color: #ffffff;
+    font-family: Montserrat;
+    width: 100%;
+}
+
+
+main article:nth-of-type(3) div {
+    width: 100%;
+    position: relative;
+    margin-bottom: 15%;
+}
+
+main article:nth-of-type(3) div h1 {
+    font-size: 7.5vi;
+}
+
+main article:nth-of-type(3) div img {
+    width: 65%;
+    position: absolute;
+    bottom: -340%;
+    left: 40%;
+    transform: translateX(-40%);
+    z-index: -1;
+}
+
+
+main article:nth-of-type(3) p {
+    font-size: 12px;
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+main article:nth-of-type(4) {
     width: 100%;
     margin-top: 120px;
     display: flex;
@@ -363,7 +401,7 @@ main article:nth-of-type(3) {
     font-family: Montserrat;
 }
 
-main article:nth-of-type(3) div:nth-of-type(1) {
+main article:nth-of-type(4) div:nth-of-type(1) {
     width: 100%;
     display: flex;
     align-items: center;
@@ -377,7 +415,7 @@ main article:nth-of-type(3) div:nth-of-type(1) {
     display: none;
 }
 
-main article:nth-of-type(3) div:nth-of-type(1) h1 {
+main article:nth-of-type(4) div:nth-of-type(1) h1 {
     position: absolute;
     top: 5%;
     width: 45%;
@@ -386,7 +424,7 @@ main article:nth-of-type(3) div:nth-of-type(1) h1 {
     line-height: 1.2;
 }
 
-main article:nth-of-type(3) div:nth-of-type(1) h2 {
+main article:nth-of-type(4) div:nth-of-type(1) h2 {
     position: absolute;
     width: 40%;
     left: 20%;
@@ -394,7 +432,7 @@ main article:nth-of-type(3) div:nth-of-type(1) h2 {
     bottom: 40%;
 }
 
-main article:nth-of-type(3) div:nth-of-type(1) p {
+main article:nth-of-type(4) div:nth-of-type(1) p {
     position: absolute;
     bottom: 10%;
     font-size: 35px;
@@ -402,7 +440,7 @@ main article:nth-of-type(3) div:nth-of-type(1) p {
 }
 
 
-main article:nth-of-type(3) div:nth-of-type(1) video:nth-of-type(1) {
+main article:nth-of-type(4) div:nth-of-type(1) video:nth-of-type(1) {
     width: 70%;
 }
 
@@ -411,27 +449,27 @@ main article:nth-of-type(3) div:nth-of-type(1) video:nth-of-type(1) {
 }
 
 
-main article:nth-of-type(3) div:nth-of-type(2) {
+main article:nth-of-type(4) div:nth-of-type(2) {
     width: 65%;
     text-align: center;
 }
 
-main article:nth-of-type(3) div:nth-of-type(2) h1 {
+main article:nth-of-type(4) div:nth-of-type(2) h1 {
     font-size: 21px;
     padding-bottom: 35px;
 }
 
-main article:nth-of-type(3) div:nth-of-type(2) p {
+main article:nth-of-type(4) div:nth-of-type(2) p {
     font-size: 12px;
 }
 
-main article:nth-of-type(3) div:nth-of-type(3) {
+main article:nth-of-type(4) div:nth-of-type(3) {
     text-align: center;
     margin-top: 25px;
     width: 100%;
 }
 
-main article:nth-of-type(3) div:nth-of-type(3) a {
+main article:nth-of-type(4) div:nth-of-type(3) a {
     color: #ffffff;
     border-bottom: 2px solid #00ff00;
     padding-bottom: 5px;
@@ -439,7 +477,7 @@ main article:nth-of-type(3) div:nth-of-type(3) a {
     margin-bottom: 0px;
 }
 
-main article:nth-of-type(3) div:nth-of-type(3) p {
+main article:nth-of-type(4) div:nth-of-type(3) p {
     margin-top: 30px;
     opacity: 0.5;
     font-size: 12px;
@@ -447,7 +485,7 @@ main article:nth-of-type(3) div:nth-of-type(3) p {
 
 
 
-main article:nth-of-type(4) {
+main article:nth-of-type(5) {
     width: 100%;
     display: flex;
     overflow: hidden;
@@ -455,21 +493,21 @@ main article:nth-of-type(4) {
     margin-top: 80px;
 }
 
-main article:nth-of-type(4) div {
+main article:nth-of-type(5) div {
     width: 100%;
     position: relative;
     overflow: hidden;
 }
 
-main article:nth-of-type(4) div img {
+main article:nth-of-type(5) div img {
     width: 270px;
 }
 
-main article:nth-of-type(4) div:nth-of-type(1) img {
+main article:nth-of-type(5) div:nth-of-type(1) img {
     width: 230px;
 }
 
-main article:nth-of-type(4) div p {
+main article:nth-of-type(5) div p {
     position: absolute;
     text-transform: uppercase;
     font-size: 14px;
@@ -477,18 +515,18 @@ main article:nth-of-type(4) div p {
     color: #ffffff;
 }
 
-main article:nth-of-type(4) div:nth-of-type(1) p {
+main article:nth-of-type(5) div:nth-of-type(1) p {
     right: 5%;
     bottom: 12%;
 }
 
-main article:nth-of-type(4) div:nth-of-type(2) p {
+main article:nth-of-type(5) div:nth-of-type(2) p {
     left: 5%;
     bottom: 3%;
 }
 
 
-main article:nth-of-type(5) {
+main article:nth-of-type(6) {
     width: 100%;
     margin-top: 80px;
     display: flex;
@@ -501,11 +539,11 @@ main article:nth-of-type(5) {
     padding-bottom: 50px;
 }
 
-main article:nth-of-type(5) div:nth-of-type(1) {
+main article:nth-of-type(6) div:nth-of-type(1) {
     width: 100%;
 }
 
-main article:nth-of-type(5) div:nth-of-type(1) h1 {
+main article:nth-of-type(6) div:nth-of-type(1) h1 {
     width: 100%;
     text-align: center;
     font-size: 20px;
@@ -523,13 +561,13 @@ main article:nth-of-type(5) div:nth-of-type(1) h1 {
 } */
 
 
-main article:nth-of-type(5) div:nth-of-type(2) p {
+main article:nth-of-type(6) div:nth-of-type(2) p {
     color: #ffffff;
     opacity: 0.5;
     font-size: 12px;
 }
 
-main article:nth-of-type(5) div:nth-of-type(3) a {
+main article:nth-of-type(6) div:nth-of-type(3) a {
     color: #ffffff;
     border-bottom: 2px solid #00ff00;
     padding-bottom: 10px;
@@ -618,7 +656,7 @@ footer article:nth-of-type(3) p {
 @media screen and (min-width: 480px) and (max-height: 500px) {
 
     nav>ul {
-        width: 90%;
+        width: 87%;
     }
 
     nav>ul li:nth-of-type(1) div.nav-menu {
@@ -658,7 +696,24 @@ footer article:nth-of-type(3) p {
         padding-right: 0px;
     }
 
-    main article:nth-of-type(3) div:nth-of-type(1) video:nth-of-type(1) {
+
+    main article:nth-of-type(3) div h1 {
+        font-size: 8vi;
+    }
+
+    main article:nth-of-type(3) div img {
+        width: 70%;
+        bottom: -340%;
+        left: 40%;
+        transform: translateX(-40%);
+    }
+
+    main article:nth-of-type(3) p {
+        font-size: 14px;
+        width: 85%;
+    }
+
+    main article:nth-of-type(4) div:nth-of-type(1) video:nth-of-type(1) {
         display: none;
     }
 
@@ -668,48 +723,48 @@ footer article:nth-of-type(3) p {
     }
 
 
-    main article:nth-of-type(3) div:nth-of-type(1) h1 {
+    main article:nth-of-type(4) div:nth-of-type(1) h1 {
         width: 20%;
         left: 35%;
         font-size: 18px;
     }
 
 
-    main article:nth-of-type(3) div:nth-of-type(1) h2 {
+    main article:nth-of-type(4) div:nth-of-type(1) h2 {
         width: 15%;
         left: 36%;
         font-size: 15px;
     }
 
 
-    main article:nth-of-type(3) div:nth-of-type(1) p {
+    main article:nth-of-type(4) div:nth-of-type(1) p {
         bottom: 10%;
         font-size: 30px;
         right: 35%;
     }
 
-    main article:nth-of-type(3) div:nth-of-type(2) h1 {
+    main article:nth-of-type(4) div:nth-of-type(2) h1 {
         font-size: 25px;
     }
 
-    main article:nth-of-type(3) div:nth-of-type(2) p {
+    main article:nth-of-type(4) div:nth-of-type(2) p {
         font-size: 14px;
     }
 
 
-    main article:nth-of-type(5) div:nth-of-type(1) h1 {
+    main article:nth-of-type(6) div:nth-of-type(1) h1 {
         font-size: 24px;
     }
 
-    main article:nth-of-type(4) div:nth-of-type(1) img {
+    main article:nth-of-type(5) div:nth-of-type(1) img {
         width: 50vw;
     }
 
-    main article:nth-of-type(4) div img {
+    main article:nth-of-type(5) div img {
         width: 60vw;
     }
 
-    main article:nth-of-type(4) div:nth-of-type(1) p {
+    main article:nth-of-type(5) div:nth-of-type(1) p {
         bottom: 14%;
     }
 }
@@ -801,52 +856,77 @@ footer article:nth-of-type(3) p {
         font-size: 26px;
     }
 
-    main article:nth-of-type(3) div:nth-of-type(2) h1 {
-        font-size: 25px;
+
+    main article:nth-of-type(3) {
+        margin-top: 180px;
     }
 
-    main article:nth-of-type(3) div:nth-of-type(2) p {
-        font-size: 14px;
+    main article:nth-of-type(3) div {
+        margin-bottom: 10%;
     }
 
-    main article:nth-of-type(3) div:nth-of-type(3) a {
-        font-size: 26px;
+    main article:nth-of-type(3) div h1 {
+        font-size: 8vi;
     }
 
-    main article:nth-of-type(3) div:nth-of-type(3) p {
-        font-size: 14px;
+    main article:nth-of-type(3) div img {
+        width: 70%;
+        bottom: -340%;
+        left: 40%;
+        transform: translateX(-40%);
     }
 
-    main article:nth-of-type(4) {
-        gap: 0px;
-    }
-
-    main article:nth-of-type(4) div:nth-of-type(1) img {
+    main article:nth-of-type(3) p {
+        font-size: 15px;
         width: 85%;
     }
 
-    main article:nth-of-type(4) div img {
+    main article:nth-of-type(4) div:nth-of-type(2) h1 {
+        font-size: 25px;
+    }
+
+    main article:nth-of-type(4) div:nth-of-type(2) p {
+        font-size: 14px;
+    }
+
+    main article:nth-of-type(4) div:nth-of-type(3) a {
+        font-size: 26px;
+    }
+
+    main article:nth-of-type(4) div:nth-of-type(3) p {
+        font-size: 14px;
+    }
+
+    main article:nth-of-type(5) {
+        gap: 0px;
+    }
+
+    main article:nth-of-type(5) div:nth-of-type(1) img {
+        width: 85%;
+    }
+
+    main article:nth-of-type(5) div img {
         width: 100%;
     }
 
-    main article:nth-of-type(4) div p {
+    main article:nth-of-type(5) div p {
         font-size: 16px;
     }
 
-    main article:nth-of-type(4) div:nth-of-type(1) p {
+    main article:nth-of-type(5) div:nth-of-type(1) p {
         right: 20%;
         bottom: 12%;
     }
 
-    main article:nth-of-type(5) div:nth-of-type(1) h1 {
+    main article:nth-of-type(6) div:nth-of-type(1) h1 {
         font-size: 28px;
     }
 
-    main article:nth-of-type(5) div:nth-of-type(2) p {
+    main article:nth-of-type(6) div:nth-of-type(2) p {
         font-size: 16px;
     }
 
-    main article:nth-of-type(5) div:nth-of-type(3) a {
+    main article:nth-of-type(6) div:nth-of-type(3) a {
         font-size: 18px;
     }
 
@@ -926,7 +1006,8 @@ footer article:nth-of-type(3) p {
     }
 
 
-    header article:nth-of-type(2) ul li:nth-of-type(1), header article:nth-of-type(2) ul li:nth-of-type(2) {
+    header article:nth-of-type(2) ul li:nth-of-type(1),
+    header article:nth-of-type(2) ul li:nth-of-type(2) {
         gap: 25px;
     }
 
@@ -944,7 +1025,7 @@ footer article:nth-of-type(3) p {
         font-size: 20px;
     }
 
-    .secondary-li  {
+    .secondary-li {
         display: inline;
         margin-right: 0px;
     }
@@ -970,16 +1051,38 @@ footer article:nth-of-type(3) p {
         font-size: 20px;
     }
 
-
     main article:nth-of-type(2)>div:nth-of-type(3) a {
         font-size: 25px;
     }
 
-    main article:nth-of-type(3) div:nth-of-type(1) video:nth-of-type(1) {
+
+    main article:nth-of-type(3) div {
+        margin-bottom: 10%;
+    }
+
+    main article:nth-of-type(3) div h1 {
+        font-size: 8vi;
+    }
+
+    main article:nth-of-type(3) div img {
+        width: 70%;
+        bottom: -340%;
+        left: 40%;
+        transform: translateX(-40%);
+    }
+
+    main article:nth-of-type(3) p {
+        font-size: 15px;
+        width: 90%;
+    }
+
+
+
+    main article:nth-of-type(4) div:nth-of-type(1) video:nth-of-type(1) {
         display: none;
     }
 
-    main article:nth-of-type(3) {
+    main article:nth-of-type(4) {
         margin-top: 200px;
         gap: 160px;
     }
@@ -1018,75 +1121,75 @@ footer article:nth-of-type(3) p {
         bottom: -8%;
     }
 
-    main article:nth-of-type(3) div:nth-of-type(2) {
+    main article:nth-of-type(4) div:nth-of-type(2) {
         width: 60%;
         text-align: center;
     }
 
-    main article:nth-of-type(3) div:nth-of-type(2) h1 {
+    main article:nth-of-type(4) div:nth-of-type(2) h1 {
         font-size: 35px;
         padding-bottom: 80px;
     }
 
 
-    main article:nth-of-type(3) div:nth-of-type(2) p {
+    main article:nth-of-type(4) div:nth-of-type(2) p {
         font-size: 18px;
     }
 
 
-    main article:nth-of-type(3) div:nth-of-type(3) a {
+    main article:nth-of-type(4) div:nth-of-type(3) a {
         font-size: 25px;
     }
 
 
-    main article:nth-of-type(3) div:nth-of-type(3) p {
+    main article:nth-of-type(4) div:nth-of-type(3) p {
         font-size: 14px;
-    }
-
-
-    main article:nth-of-type(4) {
-        margin-top: 120px;
-    }
-
-
-    main article:nth-of-type(4) div:nth-of-type(1) img {
-        width: 90%;
-        margin-left: 30px;
-    }
-
-    main article:nth-of-type(4) div:nth-of-type(2) img {
-        width: 100%;
-        margin-top: 60%;
-    }
-
-
-    main article:nth-of-type(4) div p {
-        font-size: 20px;
-    }
-
-    main article:nth-of-type(4) div:nth-of-type(1) p {
-        right: 10%;
-        bottom: 36%;
     }
 
 
     main article:nth-of-type(5) {
         margin-top: 120px;
+    }
+
+
+    main article:nth-of-type(5) div:nth-of-type(1) img {
+        width: 90%;
+        margin-left: 30px;
+    }
+
+    main article:nth-of-type(5) div:nth-of-type(2) img {
+        width: 100%;
+        margin-top: 60%;
+    }
+
+
+    main article:nth-of-type(5) div p {
+        font-size: 20px;
+    }
+
+    main article:nth-of-type(5) div:nth-of-type(1) p {
+        right: 10%;
+        bottom: 36%;
+    }
+
+
+    main article:nth-of-type(6) {
+        margin-top: 120px;
         gap: 70px;
     }
 
 
-    main article:nth-of-type(5) div:nth-of-type(1) h1 {
+    main article:nth-of-type(6) div:nth-of-type(1) h1 {
         font-size: 25px;
     }
 
 
-    main article:nth-of-type(5) div:nth-of-type(2) p {
+    main article:nth-of-type(6) div:nth-of-type(2) p {
         font-size: 16px;
     }
 
 
-    main article:nth-of-type(5) div:nth-of-type(3) a {
+    main article:nth-of-type(6) div:nth-of-type(3) a {
         font-size: 20px;
     }
 
@@ -1105,7 +1208,8 @@ footer article:nth-of-type(3) p {
         font-size: 28px;
     }
 
-    footer article ul li, footer article ul li a {
+    footer article ul li,
+    footer article ul li a {
         font-size: 20px;
     }
 
@@ -1117,7 +1221,7 @@ footer article:nth-of-type(3) p {
     footer article:nth-of-type(3) p {
         font-size: 13px;
     }
-    
-    
+
+
 
 }
