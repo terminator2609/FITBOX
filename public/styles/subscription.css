@@ -125,7 +125,7 @@ header p {
     background-color: #ffffff;
     padding: 10px 30px 10px 30px;
     border-radius: 37px;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 header article:nth-of-type(1) {
@@ -197,6 +197,30 @@ main article:nth-of-type(1) div p {
 main article:nth-of-type(2) {
     margin-top: 150px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+main article:nth-of-type(2)>div {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main article:nth-of-type(2)>div img {
+    width: 60%;
+    position: absolute;
+    bottom: -290%;
+}
+
+main article:nth-of-type(2)>div h1 {
+    text-align: center;
+    font-size: 8vi;
 }
 
 main article:nth-of-type(2) ul {
@@ -205,7 +229,6 @@ main article:nth-of-type(2) ul {
     flex-direction: column;
     gap: 60px;
     width: 90%;
-    margin-right: 30px;
 }
 
 main article:nth-of-type(2) ul li {
@@ -228,19 +251,43 @@ main article:nth-of-type(2) ul li p {
 
 main article:nth-of-type(3) {
     margin-top: 120px;
-    width: 90%;
-    margin-left: 30px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
+main article:nth-of-type(3) div:nth-of-type(1) {
+    width: 100%;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+main article:nth-of-type(3) div:nth-of-type(1) img {
+    width: 53%;
+    position: absolute;
+    top: -135%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+main article:nth-of-type(3) div:nth-of-type(1) h2 {
+    width: 100%;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 6vi;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
 main article:nth-of-type(3) h3 {
     font-size: 24px;
     font-weight: 500;
+    margin-left: 30px;
 }
 
-main article:nth-of-type(3) div {
+main article:nth-of-type(3) div:nth-of-type(2) {
     display: flex;
     width: 100%;
     gap: 5px;
@@ -249,6 +296,7 @@ main article:nth-of-type(3) div {
 
 main article:nth-of-type(3) div h4 {
     font-size: 21vi;
+    margin-left: 30px;
 }
 
 main article:nth-of-type(3) div p {
@@ -259,6 +307,7 @@ main article:nth-of-type(3)>p {
     margin-top: 20px;
     font-size: 14px;
     width: 75%;
+    margin-left: 30px;
 }
 
 
