@@ -120,7 +120,7 @@ header {
 }
 
 
-header p {
+header>p {
     text-align: center;
     background-color: #ffffff;
     padding: 10px 30px 10px 30px;
@@ -143,6 +143,10 @@ header article:nth-of-type(1) img:nth-of-type(1n + 2) {
     display: none;
 }
 
+
+header article:nth-of-type(1) div {
+    display: none;
+}
 
 main {
     margin-top: 80px;
@@ -216,6 +220,7 @@ main article:nth-of-type(2)>div img {
     width: 60%;
     position: absolute;
     bottom: -290%;
+    z-index: -1;
 }
 
 main article:nth-of-type(2)>div h1 {
@@ -342,7 +347,6 @@ main article:nth-of-type(4) a {
 
 
 
-/* -----------------------------------------------------------footer---------------------------------------------------------- */
 
 /* -----------------------------------------------------------footer---------------------------------------------------------- */
 
@@ -511,7 +515,7 @@ footer article:nth-of-type(3) p {
         margin-top: 15%;
     }
 
-    header p {
+    header>p {
         padding: 15px 35px 15px 35px;
         font-size: 20px;
     }
@@ -588,4 +592,177 @@ footer article:nth-of-type(3) p {
 
 
 
+}
+
+
+@media screen and (min-width: 980px) {
+
+    nav>ul {
+        width: 87%;
+    }
+
+    nav>ul>li:nth-of-type(1) i {
+        font-size: 45px;
+    }
+
+    nav>ul>li:nth-of-type(2) img {
+        width: 250px;
+    }
+
+
+    nav>ul li:nth-of-type(1) div.nav-menu {
+        height: 200vh;
+    }
+
+    nav>ul li:nth-of-type(1) div.nav-menu ul {
+        margin-top: 15%;
+        font-size: 28px;
+    }
+
+    nav>ul li:nth-of-type(1) div.nav-menu ul li:last-of-type {
+        margin-top: 9%;
+    }
+
+    nav>ul li:nth-of-type(1) div.nav-menu ul li:last-of-type a {
+        font-size: 22px;
+    }
+
+    header {
+        padding-top: 210px;
+        gap: 100px;
+    }
+
+    header>p {
+        border-radius: 5px;
+        font-size: 22px;
+    }
+
+    header article:nth-of-type(1) {
+        align-items: flex-end;
+    }
+
+
+    header article:nth-of-type(1) img {
+        width: 50%;
+        margin-left: 0%;
+        transform: translateX(0%)
+    }
+
+    header article:nth-of-type(1) div {
+        display: flex;
+        flex-direction: column;
+        font-family: Montserrat;
+        color: #ffffff;
+        padding-left: 40px;
+        gap: 80px;
+    }
+
+
+    header article:nth-of-type(1) div h1 {
+    
+        font-size: 25px;
+        font-weight: 500;
+        width: 20%;
+        line-height: 1.5;
+        
+    }
+
+
+    header article:nth-of-type(1) div p {
+        font-size: 18px;
+        width: 55%;
+    }
+
+    main article:nth-of-type(1) h1 {
+        display: none;
+    }
+
+    main article:nth-of-type(1)>p {
+        display: none;
+    }
+
+    main article:nth-of-type(1) a {
+        font-size: 26px;
+    }
+
+    main article:nth-of-type(1) div p {
+        font-size: 16px;
+    }
+
+    main article:nth-of-type(2) ul li {
+        gap: 20px;
+    }
+
+    main article:nth-of-type(2) ul li h2 {
+        font-size: 70px;
+    }
+
+    main article:nth-of-type(2) ul li p {
+        font-size: 18px;
+    }
+
+    main article:nth-of-type(3) h3 {
+        font-size: 30px;
+        margin-left: 6.5%;
+    }
+
+    main article:nth-of-type(3) div h4 {
+        font-size: 22vi;
+    }
+
+    main article:nth-of-type(3) div p {
+        font-size: 4.5vi;
+    }
+
+    main article:nth-of-type(3)>p {
+        font-size: 18px;
+        width: 55%;
+        margin-left: 6.5%;
+    }
+
+    main article:nth-of-type(4) {
+        margin-left: 6.5%;
+    }
+
+    main article:nth-of-type(4) h5 {
+        font-size: 28px;
+    }
+
+    main article:nth-of-type(4) p {
+        font-size: 18px;
+        width: 50%;
+    }
+
+    main article:nth-of-type(4) a {
+        margin-top: 50px;
+        font-size: 24px;
+    }
+
+    footer {
+        gap: 70px;
+    }
+
+    footer article {
+        width: 100%;
+        gap: 40px;
+    }
+
+
+    footer article h6 {
+        font-size: 28px;
+    }
+
+    footer article ul li,
+    footer article ul li a {
+        font-size: 20px;
+    }
+
+
+    footer article:nth-of-type(3) div a i {
+        font-size: 25px;
+    }
+
+    footer article:nth-of-type(3) p {
+        font-size: 13px;
+    }
 }

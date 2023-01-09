@@ -393,3 +393,94 @@ footer article:nth-of-type(3) p {
     
 
 }
+
+
+@media screen and (min-width: 980px) {
+
+    nav>ul {
+        width: 87%;
+    }
+
+    nav>ul>li:nth-of-type(1) i {
+        font-size: 45px;
+    }
+
+    nav>ul>li:nth-of-type(2) img {
+        width: 250px;
+    }
+
+
+    nav>ul li:nth-of-type(1) div.nav-menu {
+        height: 200vh;
+    }
+
+    nav>ul li:nth-of-type(1) div.nav-menu ul {
+        margin-top: 15%;
+        font-size: 28px;
+    }
+
+    nav>ul li:nth-of-type(1) div.nav-menu ul li:last-of-type {
+        margin-top: 9%;
+    }
+
+    nav>ul li:nth-of-type(1) div.nav-menu ul li:last-of-type a {
+        font-size: 22px;
+    }
+
+    header {
+        padding-top: 220px;
+    }
+
+    header video:nth-of-type(1) {
+        width: 80%;
+        margin-top: 40px;
+    }
+    
+    header>p {
+        text-align: center;
+        width: 70%;
+        font-size: 18px;
+    }
+
+    header div a {
+        font-size: 24px;
+    }
+
+    header div p {
+        margin-top: 35px;
+        font-size: 16px;
+    }
+
+    main p {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    footer {
+        gap: 70px;
+    }
+
+    footer article {
+        width: 100%;
+        gap: 40px;
+    }
+
+
+    footer article h6 {
+        font-size: 28px;
+    }
+
+    footer article ul li,
+    footer article ul li a {
+        font-size: 20px;
+    }
+
+
+    footer article:nth-of-type(3) div a i {
+        font-size: 25px;
+    }
+
+    footer article:nth-of-type(3) p {
+        font-size: 13px;
+    }
+}
