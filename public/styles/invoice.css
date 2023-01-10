@@ -99,3 +99,24 @@ main article a {
 
 }
 
+
+@media screen and (min-width: 980px) {
+
+    main article {
+        width: 90%;
+    }
+
+
+    main article p {
+        font-size: 22px;
+    }
+
+    main article h1 {
+        font-size: 25px;
+    }
+
+    main article a {
+        font-size: 22px;
+    }
+
+}

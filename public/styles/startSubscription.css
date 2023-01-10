@@ -128,3 +128,38 @@ main div a:nth-of-type(2) {
         font-size: 16px;
     }
 }
+
+
+@media screen and (min-width: 980px) {
+
+    header div {
+        font-size: 50px;
+    }
+
+
+    header div img {
+        width: 350px;
+        bottom: -133px;
+    }
+
+
+    main {
+        margin-top: 100px;
+        gap: 50px;
+        font-size: 22px;
+    }
+
+    main p:nth-of-type(2) {
+        width: 60%;
+    }
+
+    main div a:nth-of-type(1) {
+        font-size: 26px;
+    }
+
+    main div a:nth-of-type(2) {
+        font-size: 18px;
+    }
+
+
+}
