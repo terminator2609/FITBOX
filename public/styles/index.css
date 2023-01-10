@@ -1181,7 +1181,7 @@ footer article:nth-of-type(3) p {
     }
 
     main article:nth-of-type(3) p {
-        font-size: 15px;
+        font-size: 18px;
         width: 90%;
     }
 
@@ -1253,7 +1253,7 @@ footer article:nth-of-type(3) p {
 
 
     main article:nth-of-type(4) div:nth-of-type(3) p {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     main article:nth-of-type(5) div h1 {
@@ -1268,7 +1268,7 @@ footer article:nth-of-type(3) p {
 
     main article:nth-of-type(5) p {
         width: 82%;
-        font-size: 16px;
+        font-size: 18px;
     }
 
 
@@ -1345,6 +1345,40 @@ footer article:nth-of-type(3) p {
 
     footer article:nth-of-type(3) p {
         font-size: 13px;
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 1280px) {
+
+    nav>ul {
+        width: 88%;
+    }
+
+    nav>ul li:nth-of-type(1) div.nav-menu svg {
+        padding-left: 40px;
+        padding-top: 30px;
+    }
+
+    nav>ul li:nth-of-type(1) div.nav-menu ul {
+        margin-top: 5%;
+        font-size: 45px;
+    }
+
+    .selected-page {
+        width: 225px;
+        top: -95px;
+    }
+
+    nav>ul li:nth-of-type(1) div.nav-menu ul li:last-of-type {
+        margin-top: 5%;
+    }
+
+    header {
+        padding-top: 20%;
     }
 
 
